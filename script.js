@@ -72,7 +72,7 @@ const cards = [{
   techs: ['HTML', 'Bootstrap', 'Ruby'],
   btnText: 'See Project',
   id: 5,
-  uniqueId: 'prcjt5',
+  uniqueId: 'prcjt5'
 },
 {
   title: 'Multi-Post-Stories',
@@ -81,8 +81,8 @@ const cards = [{
   techs: ['HTML', 'Bootstrap', 'Ruby'],
   btnText: 'See Project',
   id: 6,
-  uniqueId: 'prcjt6',
-},
+  uniqueId: 'prcjt6'
+}
 ];
 
 function displayCards() {
@@ -115,7 +115,7 @@ function displayCards() {
 displayCards();
 
 // popup window
-const btn = document.getElementsByClassName('checkout-button');
+const btn = document.getElementsByClassName(checkout-button);
 const popupWin = document.getElementById('popup-win');
 cards.forEach((card) => {
   for (let i = 0; i < btn.length; i += 1) {
@@ -195,7 +195,7 @@ const validateEmail = () => {
 form.addEventListener('submit', (event) => {
   event.preventDefault();
   validateEmail();
-});
+})
 
 // store data in local storage
 
